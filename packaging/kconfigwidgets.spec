@@ -100,6 +100,7 @@ rm -rf %{buildroot}
 %{_kf5_bindir}/preparetips5
 %{_kf5_datadir}/kconfigwidgets
 %{_mandir}/man1/*
+%{_kf5_sharedir}/locale/*/kf5_entry.desktop
 # >> files
 # << files
 
