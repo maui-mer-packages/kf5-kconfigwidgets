@@ -10,7 +10,7 @@ Name:       kconfigwidgets
 
 Summary:    KDE Frameworks 5 Tier 3 addon for creating configuration dialogs
 Version:    5.3.0
-Release:    1
+Release:    2
 Group:      System/Base
 License:    GPLv2+
 URL:        http://www.kde.org
