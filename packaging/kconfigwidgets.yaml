@@ -52,6 +52,9 @@ RequiresPost:
 RequiresPostUn:
     - /sbin/ldconfig
 
+LocaleName: kconfigwidgets5_qt
+LocaleOptions: "--with-qt --all-name || :"
+
 Files:
     - "%doc COPYING COPYING.LIB README.md"
     - "%{_kf5_libdir}/libKF5ConfigWidgets.so.*"

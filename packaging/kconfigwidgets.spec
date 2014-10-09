@@ -91,7 +91,9 @@ rm -rf %{buildroot}
 # >> install post
 # << install post
 
-%files
+%find_lang kconfigwidgets5_qt --with-qt --all-name || :
+
+%files -f kconfigwidgets5_qt.lang
 %defattr(-,root,root,-)
 %doc COPYING COPYING.LIB README.md
 %{_kf5_libdir}/libKF5ConfigWidgets.so.*
